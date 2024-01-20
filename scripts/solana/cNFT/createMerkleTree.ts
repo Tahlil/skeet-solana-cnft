@@ -38,7 +38,7 @@ const run = async () => {
     const merkleTree = generateSigner(umi)
     const builder = await createTree(umi, {
       merkleTree,
-      maxDepth: 14,
+      maxDepth: 7,
       maxBufferSize: 64,
     })
     await builder.sendAndConfirm(umi)
