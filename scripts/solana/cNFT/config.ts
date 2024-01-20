@@ -10,20 +10,9 @@ export const EXTERNAL_URL = 'https://skeet.dev/'
 export const COLLECTION_IMAGE_PATH = 'scripts/solana/cNFT/example/TheDev.png'
 export const CREATORS = [
   {
-    address: publicKey('YLmoXgFkKFT6V6FumUPgBJXBJ9gAPPoYtacMfoTUPpy'),
-    verified: false,
-    share: 40,
-  },
-  {
-    address: publicKey('DcLN5EYHBSexnKdipnSmiFAKevcxGijURonzaWfri8Cq'),
-    verified: false,
-    share: 30,
-  },
-  {
-    address: publicKey('DfCHMeHfRYMBQwMje5bLSqimMWXhArYoTomX2vRr6Ty9'),
-    verified: false,
-    share: 30,
-  },
+    address: publicKey('6QkPvmBMGCdonNZcynrCg4UAY3ULV71EU2rUH5h5b1Ta'),
+    share: 100
+  }
 ]
 // After create NFT collection, we can get the collection address:
 export const COLLECTION_MINT = publicKey(
@@ -52,9 +41,6 @@ export const NFT_ITEM_ATTRIBUTES = [
 ]
 
 // for RPC
-export const OWNER_ADDRESS = 'ELLBGa6DTdEVui6Ydt8vqsnsyybAxyVLPwY7oH6onbUq'
+export const OWNER_ADDRESS = '6QkPvmBMGCdonNZcynrCg4UAY3ULV71EU2rUH5h5b1Ta'
 export const COLLECTION_MINT_ADDRESS =
   'itzdT5XgD9cLRtFSTbLAeEqKM3aT3UeSTCJ5h1A9cNN'
-// for umi
-export const OWNER_PUBKEY = publicKey(OWNER_ADDRESS)
-export const COLLECTION_MINT_PUBKEY = publicKey(COLLECTION_MINT_ADDRESS)
