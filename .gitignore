@@ -109,3 +109,6 @@ firebase-export-*
 *key.json
 *keyfile.json
 *keys.json
+
+# Mac
+.DS_Store
