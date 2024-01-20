@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://solana-mobile-stack.skeet.dev/sitemap.xml
